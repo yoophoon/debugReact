@@ -18,6 +18,8 @@ git clone git@github.com:facebook/react.git
 
 # 采用submodule的方式不用将react仓库上传到本仓库
 git submodule add git@github.com:facebook/react.git react
+# 克隆时采用git clone git@github.com:yoophoon/debugReact.git --recurse-submodules
+# 即可将仓库及其子模块一起克隆至本地git clone && git submodule update
 ```
 ## 配置项目
 ### 调整react版本
